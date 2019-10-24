@@ -34,3 +34,13 @@ def using_uniq(Array)
   Array.uniq
 end
 
+def using_flatten(Array)
+  Array.flatten
+end
+
+def using_delete(Array, String)
+  Array.delete(String)
+end
+
+def using_delete_at(Array, Integer)
+  
